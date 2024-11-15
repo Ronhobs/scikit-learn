@@ -25,9 +25,3 @@ codecov:
     # Pipeline jobs uploading coverage reports.
     after_n_builds: 6
 
-ignore:
-- "sklearn/externals"
-- "sklearn/_build_utils"
-- "sklearn/__check_build"
-- "sklearn/_min_dependencies.py"
-- "**/conftest.py"

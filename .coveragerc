@@ -1,7 +1,16 @@
 [run]
 branch = True
 source = sklearn
-parallel = True
+
+[report]
+include = 
+    */test_multioutput.py
+    */test_random_projection.py
+    */test_pipeline.py
+    */test_kernel_ridge.py
+    */test_naive_bayes.py
+    */test_isotonic.py
+	
 omit =
     */sklearn/externals/*
     */sklearn/_build_utils/*
